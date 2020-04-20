@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Testimonial from "./components/Testimonial";
 import Home from "./components/Home";
+import Contactus from "./components/Contactus";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
@@ -28,6 +29,9 @@ export default function App() {
               <li>
                 <Link to="/testimonial">Testimonial</Link>
               </li>
+              <li>
+                <Link to="/contactus">Contact Us</Link>
+              </li>
             </ul>
           </div>
         </nav>
@@ -43,6 +47,9 @@ export default function App() {
           </Route>
           <Route path="/testimonial">
             <Testimonial />
+          </Route>
+          <Route path="/contactus">
+            <Contactus />
           </Route>
           <Route path="/">
             <Home />

@@ -5,14 +5,9 @@ import "../help.css";
 class Home extends React.Component {
   render() {
     return (
-      <div>
-        <div className="text-center headmain ">
-          <h1>Operational Consulting for the Regulated Cannabis Industry </h1>
-          <img src={ima} alt="he" />
-        </div>
-        <div className="mt90">
-          <Schedule />
-        </div>
+      <div className="text-center headmain">
+        <h1>Operational Consulting for the Regulated Cannabis Industry </h1>
+        <img src={ima} alt="he" />
       </div>
     );
   }

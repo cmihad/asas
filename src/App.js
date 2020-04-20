@@ -5,6 +5,7 @@ import About from "./components/About";
 import Testimonial from "./components/Testimonial";
 import Home from "./components/Home";
 import Contactus from "./components/Contactus";
+import Merchant from "./components/Merchant";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
@@ -47,6 +48,11 @@ export default function App() {
                 Contact Us
               </Link>
             </li>
+            <li className="active nav-item">
+              <Link class="nav-link" to="/merchant">
+                Merchant
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
@@ -65,6 +71,9 @@ export default function App() {
           </Route>
           <Route path="/contactus">
             <Contactus />
+          </Route>
+          <Route path="/merchant">
+            <Merchant />
           </Route>
           <Route path="/">
             <Home />

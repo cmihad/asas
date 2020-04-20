@@ -27,6 +27,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Schedule />
     </div>
   );
 }

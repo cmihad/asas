@@ -9,8 +9,8 @@ function About() {
       </div>
       <div className="container mt-5">
         <div className="row">
-          <div className="col-6 aboutfont">
-            <p className="text-justify text-left mr-5 ">
+          <div className="col-md-6 col-xs-12 aboutfont">
+            <p className="text-justify text-left  ">
               <strong> Shannon Donnelly President & Founder</strong> With 12
               years’ experience working on the front lines of the legal
               dispensary market, Shannon has developed proprietary retail
@@ -22,8 +22,8 @@ function About() {
               here to help.
             </p>
           </div>
-          <div className="col-6 ">
-            <img className="img-fluid ml-5" src={aboutusimage} alt="hello" />
+          <div className="col-md-6 col-xs-12">
+            <img className="img-fluid" src={aboutusimage} alt="hello" />
           </div>
         </div>
       </div>

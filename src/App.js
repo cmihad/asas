@@ -10,32 +10,47 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 export default function App() {
   return (
     <Router>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          Navbar
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li className="active nav-item">
+              <Link class="nav-link" to="/">
+                Home
+              </Link>
+            </li>
+            <li className=" nav-item">
+              <Link class="nav-link" to="/about">
+                About
+              </Link>
+            </li>
+            <li className="active nav-item">
+              <Link class="nav-link" to="/testimonial">
+                Testimonial
+              </Link>
+            </li>
+            <li className="active nav-item">
+              <Link class="nav-link" to="/contactus">
+                Contact Us
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div>
-        <nav>
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo">
-              Logo
-            </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/about">About</Link>
-              </li>
-              <li>
-                <Link to="/users">Users</Link>
-              </li>
-              <li>
-                <Link to="/testimonial">Testimonial</Link>
-              </li>
-              <li>
-                <Link to="/contactus">Contact Us</Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
-
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>

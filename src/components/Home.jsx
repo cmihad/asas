@@ -6,10 +6,10 @@ import "../help.css";
 class Home extends React.Component {
   render() {
     return (
-      <div className="container">
-        <div className="center">
+      <div className="container mt60">
+        <div className="text-center">
           <h1>Operational Consulting for the Regulated Cannabis Industry </h1>
-          <img src={ima} alt="he" />
+          <img className="img-fluid" src={ima} alt="he" />
         </div>
         <div></div>
         <Schedule />

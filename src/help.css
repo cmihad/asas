@@ -495,7 +495,7 @@
 .mr110 {
   margin-right: 110px;
 }
-.imgre {
-  width: auto;
-  height: auto;
+.aboutfont p {
+  font-size: 1.6em;
+  line-height: 1.5em;
 }

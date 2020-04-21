@@ -1,5 +1,5 @@
 import React from "react";
-import aboutusimage from "../rsz_img_2343.png";
+import aboutusimage from "../img/aboutus.png";
 import Schedule from "./Schedule";
 function About() {
   return (

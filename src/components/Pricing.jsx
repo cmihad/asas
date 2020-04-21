@@ -1,6 +1,9 @@
 import React from "react";
-import slide1 from "../slide1.png";
-import slide2 from "../slide2.png";
+import slide1 from "../img/slide1main.png";
+import slide2 from "../img/slide2main.png";
+import slide3 from "../img/slide3.png";
+import slide4 from "../img/slide4.png";
+import slide6 from "../img/slide6.png";
 import Schedule from "./Schedule";
 function Pricing() {
   return (
@@ -38,7 +41,7 @@ function Pricing() {
           </div>
         </div>
       </div>
-      <div className="container mt100">
+      <div className="container care mt100">
         <div
           id="carouselExampleControls"
           className="carousel slide"
@@ -52,7 +55,13 @@ function Pricing() {
               <img className="d-block w-100" src={slide2} alt="Second slide" />
             </div>
             <div className="carousel-item">
-              <img className="d-block w-100" src={slide1} alt="Third slide" />
+              <img className="d-block w-100" src={slide3} alt="Third slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={slide4} alt="Third slide" />
+            </div>
+            <div className="carousel-item">
+              <img className="d-block w-100" src={slide6} alt="Third slide" />
             </div>
           </div>
           <a

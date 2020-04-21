@@ -1,5 +1,5 @@
 import React from "react";
-import ima from "../rsz_img_2408.png";
+import ima from "../img/rsz_img_2408.png";
 import Schedule from "./Schedule";
 import "../help.css";
 

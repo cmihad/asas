@@ -80,9 +80,9 @@ function Testimonial() {
           <div></div>
           <div className="card-body">
             <h3 className="card-text">
-              With her Abilities, adaptability, and dedication, Shannon will
+              "With her Abilities, adaptability, and dedication, Shannon will
               make a great addition to any team. I have no dobut you will be
-              exceptionally pleased if you hire Higher Standard.
+              exceptionally pleased if you hire Higher Standard."
             </h3>
             <h5 className="card-title">— MARY BAHR OWNER GOOD MEDS </h5>
           </div>

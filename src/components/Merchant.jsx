@@ -1,5 +1,5 @@
 import React from "react";
-import flyer from "../flyer.png";
+import flyer from "../img/flyer.png";
 import Schedule from "./Schedule";
 function Merchant() {
   return (

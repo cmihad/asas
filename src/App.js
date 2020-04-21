@@ -6,6 +6,7 @@ import Testimonial from "./components/Testimonial";
 import Home from "./components/Home";
 import Contactus from "./components/Contactus";
 import Merchant from "./components/Merchant";
+import Pricing from "./components/Pricing";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 export default function App() {
@@ -30,27 +31,32 @@ export default function App() {
           <ul class="navbar-nav">
             <li className="active nav-item">
               <Link class="nav-link" to="/">
-                Home
+                HOME
               </Link>
             </li>
             <li className=" nav-item">
               <Link class="nav-link" to="/about">
-                About
+                ABOUT US
               </Link>
             </li>
             <li className="active nav-item">
-              <Link class="nav-link" to="/testimonial">
-                Testimonial
-              </Link>
-            </li>
-            <li className="active nav-item">
-              <Link class="nav-link" to="/contactus">
-                Contact Us
+              <Link class="nav-link" to="/pricing">
+                PRICING + SERVICES
               </Link>
             </li>
             <li className="active nav-item">
               <Link class="nav-link" to="/merchant">
-                Merchant
+                CREDIT CARD PROCESSING
+              </Link>
+            </li>
+            <li className="active nav-item">
+              <Link class="nav-link" to="/testimonial">
+                TESTIMONIAL
+              </Link>
+            </li>
+            <li className="active nav-item">
+              <Link class="nav-link" to="/contactus">
+                CONTACT US
               </Link>
             </li>
           </ul>
@@ -74,6 +80,9 @@ export default function App() {
           </Route>
           <Route path="/merchant">
             <Merchant />
+          </Route>
+          <Route path="/pricing">
+            <Pricing />
           </Route>
           <Route path="/">
             <Home />

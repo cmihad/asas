@@ -7,12 +7,18 @@ function About() {
       <div className="mt-4">
         <h1 className="text-center">Higher Standard is here to Help</h1>
       </div>
-      <div className="container mt-5">
+      <div className="container mt-5 ">
         <div className="row">
           <div className="col-md-6 col-xs-12 aboutfont">
-            <p className="text-justify text-left  ">
-              <strong> Shannon Donnelly President & Founder</strong> With 12
-              years’ experience working on the front lines of the legal
+            <h3 className="text-justify text-left  ">
+              <strong>
+                {" "}
+                Shannon Donnelly<br></br> President & Founder
+                <br></br>
+              </strong>{" "}
+            </h3>
+            <p>
+              With 12 years’ experience working on the front lines of the legal
               dispensary market, Shannon has developed proprietary retail
               marketing strategies and preferred vendor programs . Managing both
               regulated dispensaries including a 10 license chain and product
@@ -27,7 +33,10 @@ function About() {
           </div>
         </div>
       </div>
-      <Schedule />
+      <hr className=" mt100"></hr>
+      <div className="mt100">
+        <Schedule />
+      </div>
     </div>
   );
 }

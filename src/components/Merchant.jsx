@@ -10,7 +10,10 @@ function Merchant() {
             <img className="img-fluid" src={flyer} alt="hello" />
           </div>
           <div className="col-md-6 col-xs-12 aboutfont">
-            <p className="text-justify text-left  ">
+            <div className="mt-4 mb-4">
+              <h2 className="text-left">Merchant processing</h2>
+            </div>
+            <p className="text-justify text-left ">
               Higher Standard is able to set up regulated cannabis business with
               debit card processing. We offer support to get your organization
               up and going including Sops and on site implementation.
@@ -21,8 +24,11 @@ function Merchant() {
             </p>
           </div>
         </div>
+        <hr className="mt100"></hr>
       </div>
-      <Schedule />
+      <div className="mt100">
+        <Schedule />
+      </div>
     </div>
   );
 }

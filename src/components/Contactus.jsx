@@ -2,64 +2,78 @@ import React from "react";
 
 function Contactus() {
   return (
-    <div className="container mt50">
-      <div className="row">
-        <form className="col s12">
-          <div className="row">
-            <div className="input-field col s6">
+    <div>
+      <div className="text-center mt50">
+        <h1>Contact Us</h1>
+      </div>
+      <div className="container mt100">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email</label>
               <input
-                placeholder="Placeholder"
-                id="first_name"
-                type="text"
-                className="validate"
+                type="email"
+                class="form-control"
+                id="inputEmail4"
+                placeholder="Email"
               />
-              <label for="first_name">First Name</label>
             </div>
-            <div className="input-field col s6">
-              <input id="last_name" type="text" className="validate" />
-              <label for="last_name">Last Name</label>
-            </div>
-          </div>
-          <div className="row">
-            <div className="input-field col s12">
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Password</label>
               <input
-                disabled
-                value="I am not editable"
-                id="disabled"
-                type="text"
-                class="validate"
+                type="password"
+                class="form-control"
+                id="inputPassword4"
+                placeholder="Password"
               />
-              <label for="disabled">Disabled</label>
             </div>
           </div>
-          <div className="row">
-            <div className="input-field col s12">
-              <input id="password" type="password" class="validate" />
-              <label for="password">Password</label>
+          <div class="form-group">
+            <label for="inputAddress">Address</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress"
+              placeholder="1234 Main St"
+            />
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Address 2</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputCity">City</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputState">State</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <label for="inputZip">Zip</label>
+              <input type="text" class="form-control" id="inputZip" />
             </div>
           </div>
-          <div className="row">
-            <div className="input-field col s12">
-              <input id="email" type="email" class="validate" />
-              <label for="email">Email</label>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" />
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
             </div>
           </div>
-          <div className="row">
-            <div className="col s12">
-              This is an inline input field:
-              <div className="input-field inline">
-                <input id="email_inline" type="email" class="validate" />
-                <label for="email_inline">Email</label>
-                <span
-                  class="helper-text"
-                  data-error="wrong"
-                  data-success="right"
-                >
-                  Helper text
-                </span>
-              </div>
-            </div>
-          </div>
+          <button type="submit" class="btn btn-primary">
+            Sign in
+          </button>
         </form>
       </div>
     </div>

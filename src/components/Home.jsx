@@ -11,8 +11,21 @@ class Home extends React.Component {
           <h1>Operational Consulting for the Regulated Cannabis Industry </h1>
           <img className="img-fluid" src={ima} alt="he" />
         </div>
-        <div></div>
-        <Schedule />
+        <div className="text-center mt100">
+          <h1 className="mt25">
+            Higher Standards recent contracts have resulted in
+          </h1>{" "}
+          <br></br>
+          <h1 className="mt25"> 50% Higher sales on a monthly basis</h1>{" "}
+          <br></br>
+          <h1 className="mt25"> 60% Higher customer traffic</h1> <br></br>
+          <h1 className="mt25">80% Higher Product sales</h1>
+          <br className="mt25"></br>
+        </div>
+        <div>
+          <hr className="mt100"></hr>
+          <Schedule />
+        </div>
       </div>
     );
   }
